@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Print-specific styles */
+@media print {
+  /* Basic print setup */
+  @page {
+    size: A4;
+    margin: 20mm;
+  }
+
+  /* Hide screen-only elements */
+  .screen-only {
+    display: none !important;
+  }
+
+  /* Page break controls */
+  .page-break {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  .page-break:first-child {
+    page-break-before: avoid;
+    break-before: avoid;
+  }
+
+  /* Prevent unwanted breaks */
+  .avoid-break {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Ensure images print properly */
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Ensure proper text contrast for printing */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Adjust font sizes for print */
+  h1 { font-size: 24pt !important; }
+  h2 { font-size: 20pt !important; }
+  h3 { font-size: 16pt !important; }
+  p, div { font-size: 12pt !important; }
+}
