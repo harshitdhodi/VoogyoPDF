@@ -1,24 +1,8 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDzTJrZn5FenK6oLYWY3nWXxy1u0/YXlwokhbMFJTWuIwAAAKB4TBlZeEwZ
+WQAAAAtzc2gtZWQyNTUxOQAAACDzTJrZn5FenK6oLYWY3nWXxy1u0/YXlwokhbMFJTWuIw
+AAAED9Mj39IbYEgBaZ+tANptrg7LVrupYDY+aD241IXN1D2/NMmtmfkV6crqgthZjedZfH
+LW7T9heXCiSFswUlNa4jAAAAG2hhcnNoaXQuZGhvZGkyMTA4QGdtYWlsLmNvbQEC
+-----END OPENSSH PRIVATE KEY-----
 node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
